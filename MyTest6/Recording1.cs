@@ -91,11 +91,7 @@ namespace MyTest6
             repo.RxMainFrame.BtnSubmitUserName.Click("28;7");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxButtonExit' at 13;6.", repo.RxMainFrame.RxButtonExitInfo, new RecordItemIndex(3));
-            repo.RxMainFrame.RxButtonExit.Click("13;6");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(3));
             Delay.Duration(500, false);
             
         }
