@@ -2128,6 +2128,15 @@ ooooAKKKKACiiigAooooAKKKKACiiimAUtFFIAooooAKSiigAooooAKKKKACiiigAooooAKKKKAC
 iiigAooooAKKKKACiiigD//Z
 			</helperscreenshot>
 		</mouseitem>
+		<explicitdelayitem
+		duration="500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="358b96e4-9272-45c3-9a5e-240b2f738e29"

@@ -95,6 +95,9 @@ namespace MyTest6
             repo.RxMainFrame.RxButtonExit.Click("13;6");
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(4));
+            Delay.Duration(500, false);
+            
         }
 
 #region Image Feature Data
