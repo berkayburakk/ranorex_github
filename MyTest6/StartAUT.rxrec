@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6bacb8ca-6396-42b0-8b8d-e32dfcd38fe6"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="MyTest6">
+	</codegen>
+	<variables>
+		<var
+		id="98671469-c9f4-4824-b07f-8e21cb8e4f9e"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\berka\Desktop\Ronwell\Ronwell\DemoApp\RxDemoApp.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="358b96e4-9272-45c3-9a5e-240b2f738e29"
+	name="MyTest6Repository"
+	relativepath="MyTest6Repository.rxrep">
+		<codegen
+		classname="MyTest6Repository"
+		namespace="MyTest6">
+		</codegen>
+		<rootfolder
+		id="efc64dc3-d0e9-49cf-8310-049a642fb789"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
